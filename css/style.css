@@ -516,31 +516,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
-  Features Styling
+  Study material- Styling
   ================================================== */
-.features {
+.studyMaterial {
   padding-bottom: 45px;
 }
 
-.features h2 {
+.studyMaterial h2 {
   color: #199EB8;
 }
 
-.feature-col {
+.studyMaterial-col {
   display: table;
   padding-bottom: 45px;
 }
 
-.feature-col > div > div {
+.studyMaterial-col > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.feature-col > div > div:last-child {
+.studyMaterial-col > div > div:last-child {
   padding-left: 20px;
 }
 
-.feature-col .feature-icon {
+.studyMaterial-col .studyMaterial-icon {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
@@ -553,11 +553,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-.feature-col h3 {
+.studyMaterial-col h3 {
   color: #199EB8;
 }
 
-.feature-col p {
+.studyMaterial-col p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #999;
@@ -908,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .cta {
     padding: 35px 0;
   }
-  .features {
+  .studyMaterial {
     padding-bottom: 5px;
   }
   p,
