@@ -978,3 +978,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 30px;
   }
 }
+
+.card-text-plus {
+    font-size: 1.1em !important;
+    background-color: rgba(0, 0, 0, 0.65) !important;
+}
