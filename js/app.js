@@ -3,8 +3,11 @@ jQuery(document).ready(function($) {
     $('form.contactForm').submit(function() {
         subject = $('#subject').val();
         email = 'club.algoritmia.upiiz@gmail.com'
-        console.log(subject, email);
+        subject = encodeURIComponent(subject.trim())
+        console.log(email, subject);
 
+        window.location.href = "mailto:" + email + "?subject=" + subject;
+        subject = $('#subject').val("");
         return false;
     });
 });
