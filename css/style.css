@@ -983,3 +983,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 1.1em !important;
     background-color: rgba(0, 0, 0, 0.65) !important;
 }
+
+.carousel-inner {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
