@@ -991,3 +991,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 .white {
     color: white;
 }
+
+.dark {
+    background-color: #212121;
+}
+
+.history {
+    padding: 15px;
+    background-color: #4a4a4a;
+}
+
+.history .card {
+    background-color: #4a4a4a;
+}
+
+.history .card-title {
+    font-size: 1.3em;
+}
